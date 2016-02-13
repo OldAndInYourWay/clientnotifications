@@ -1,0 +1,23 @@
+{
+  "name": "notificationclient",
+  "version": "1.0.0",
+  "description": "Client side native desktop notifications.",
+  "main": "clientnotifier.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io-client": "^1.4.5",
+    "node-notifier": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node clientnotifier.js"
+  },
+  "keywords": [
+    "node",
+    "client",
+    "socket.io",
+    "express"
+  ],
+  "author": "Khalil Stemmler",
+  "license": "ISC"
+}
